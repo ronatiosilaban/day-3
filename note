@@ -1,0 +1,33 @@
+// TIPE DATA
+// 1.STRING = TEXT
+// 2.NUMBER = ANGKA
+// 3.BOOLEAN = TRUE/FALSE
+// 4.UNDIFINED = BELUM DIISI
+// 5.NULL = BELUM DIISI
+
+//VARIABEL
+//VAR
+//LET
+//CONST
+
+//KATA KUNCI
+//const name = "ronatio parhorasan silaban"
+//var my Age = 18
+//console.log("Hello, my nam is " + name + "my age is " + my age)
+//console.log(`Hello, my namee is ${name} my age is ${myage}
+
+//CONDITION/PERCABANGAN
+//if (myAge > 20){
+console.log("kamu sudah tua")
+//} else if (myAge > 50){
+//   console.log("Wes lansia")
+//} else {
+//   console.log('kamu masih muda')
+//}
+const name = "ronatio parhorasan silaban"
+var myAge = 18
+
+//FUNCTION
+function greeting() {
+    co
+}

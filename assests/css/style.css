@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap') body {
+    background-color: aqua;
+}
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR START */
+nav {
+    display: flex;
+    height: 7vh;
+    background-color: rgb(241, 242, 243);
+}
+
+nav div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+nav .left-side {
+    padding-left: 90px;
+}
+
+nav .right-side {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+nav ol {
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+nav ol li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    padding: 8px 20px;
+    background-color: #242429;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
+
+
+/* NAVBAR END */
+
+/* FORM CONTACT ME STAR */
+body {
+    background-color: rgb(205, 215, 223);
+}
+
+.title-form h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.form-contact {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-contact .container-form {
+    width: 40%;
+}
+
+.form-contact form label {
+    font-size: 30px;
+    font-weight: 650;
+
+}
+
+.form-contact form input,
+select {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(194, 186, 186);
+    border-radius: 10px;
+
+}
+
+.form-contact form textarea {
+    resize: none;
+    height: 100px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(194, 186, 186);
+    border-radius: 10px;
+
+
+}
+
+.form-contact form button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: rgb(75, 72, 99);
+    border-radius: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 640px;
+    margin-top: 50px;
+}
+
+
+
+
+/* FORM CONTACT END */
